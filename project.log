@@ -1,0 +1,8 @@
+2026-07-28 18:26:06 | INFO | ML | === RUN START ===
+2026-07-28 18:26:06 | INFO | ML | project=ML
+2026-07-28 18:26:06 | INFO | ML | repo_dir=ml-05-ensembles
+2026-07-28 18:26:06 | INFO | ML | python=3.14.3
+2026-07-28 18:26:06 | INFO | ML | os=Windows 11
+2026-07-28 18:26:06 | INFO | ML | shell=powershell
+2026-07-28 18:26:06 | INFO | ML | cwd=.
+2026-07-28 18:26:06 | INFO | ML | github_actions=False
