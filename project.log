@@ -277,3 +277,64 @@ Name: count, dtype: int64
 2026-08-02 11:34:43 | INFO | M05 | Dataset: c:\Repos\Applied_Machine_Learning\ml-05-ensembles\data\raw\diabetes_data.csv   Target: outcome (classification)
 2026-08-02 11:34:43 | INFO | M05 | Compared: single tree vs. random forest vs. gradient boosting
 2026-08-02 11:34:43 | INFO | M05 | ========================
+2026-08-02 13:50:32 | INFO | M05 | === RUN START ===
+2026-08-02 13:50:32 | INFO | M05 | project=M05
+2026-08-02 13:50:32 | INFO | M05 | repo_dir=ml-05-ensembles
+2026-08-02 13:50:32 | INFO | M05 | python=3.14.3
+2026-08-02 13:50:32 | INFO | M05 | os=Windows 11
+2026-08-02 13:50:32 | INFO | M05 | shell=powershell
+2026-08-02 13:50:32 | INFO | M05 | cwd=notebooks\project05
+2026-08-02 13:50:32 | INFO | M05 | github_actions=False
+2026-08-02 13:50:32 | INFO | M05 | Confirming installation:
+2026-08-02 13:50:32 | INFO | M05 |   python:       3.14.3
+2026-08-02 13:50:32 | INFO | M05 |   pandas:       3.0.5
+2026-08-02 13:50:32 | INFO | M05 |   numpy:        2.5.1
+2026-08-02 13:50:32 | INFO | M05 |   scikit-learn: 1.9.0
+2026-08-02 13:50:32 | INFO | M05 |   seaborn:      0.13.2
+2026-08-02 13:50:32 | INFO | M05 |   matplotlib:   3.11.1
+2026-08-02 13:50:32 | INFO | M05 | Train instances: 1279
+2026-08-02 13:50:32 | INFO | M05 | Test instances: 320
+2026-08-02 15:38:34 | INFO | M05 | === RUN START ===
+2026-08-02 15:38:34 | INFO | M05 | project=M05
+2026-08-02 15:38:34 | INFO | M05 | repo_dir=ml-05-ensembles
+2026-08-02 15:38:34 | INFO | M05 | python=3.14.3
+2026-08-02 15:38:34 | INFO | M05 | os=Windows 11
+2026-08-02 15:38:34 | INFO | M05 | shell=powershell
+2026-08-02 15:38:34 | INFO | M05 | cwd=notebooks\project05
+2026-08-02 15:38:34 | INFO | M05 | github_actions=False
+2026-08-02 15:38:34 | INFO | M05 | Confirming installation:
+2026-08-02 15:38:34 | INFO | M05 |   python:       3.14.3
+2026-08-02 15:38:34 | INFO | M05 |   pandas:       3.0.5
+2026-08-02 15:38:34 | INFO | M05 |   numpy:        2.5.1
+2026-08-02 15:38:34 | INFO | M05 |   scikit-learn: 1.9.0
+2026-08-02 15:38:34 | INFO | M05 |   seaborn:      0.13.2
+2026-08-02 15:38:34 | INFO | M05 |   matplotlib:   3.11.1
+2026-08-02 15:48:45 | INFO | M05 | === RUN START ===
+2026-08-02 15:48:45 | INFO | M05 | project=M05
+2026-08-02 15:48:45 | INFO | M05 | repo_dir=ml-05-ensembles
+2026-08-02 15:48:45 | INFO | M05 | python=3.14.3
+2026-08-02 15:48:45 | INFO | M05 | os=Windows 11
+2026-08-02 15:48:45 | INFO | M05 | shell=powershell
+2026-08-02 15:48:45 | INFO | M05 | cwd=notebooks\project05
+2026-08-02 15:48:45 | INFO | M05 | github_actions=False
+2026-08-02 15:48:45 | INFO | M05 | Confirming installation:
+2026-08-02 15:48:45 | INFO | M05 |   python:       3.14.3
+2026-08-02 15:48:45 | INFO | M05 |   pandas:       3.0.5
+2026-08-02 15:48:45 | INFO | M05 |   numpy:        2.5.1
+2026-08-02 15:48:45 | INFO | M05 |   scikit-learn: 1.9.0
+2026-08-02 15:48:45 | INFO | M05 |   seaborn:      0.13.2
+2026-08-02 15:48:45 | INFO | M05 |   matplotlib:   3.11.1
+2026-08-02 15:48:46 | INFO | M05 | Train instances: 1279
+2026-08-02 15:48:46 | INFO | M05 | Test instances: 320
+2026-08-02 15:48:51 | INFO | M05 | Bagging feature importances (high to low):
+2026-08-02 15:48:51 | INFO | M05 |   alcohol              0.162
+2026-08-02 15:48:51 | INFO | M05 |   volatile_acidity     0.123
+2026-08-02 15:48:51 | INFO | M05 |   sulfates             0.110
+2026-08-02 15:48:51 | INFO | M05 |   citric_acid          0.084
+2026-08-02 15:48:51 | INFO | M05 |   total_sulfur_dioxide 0.081
+2026-08-02 15:48:51 | INFO | M05 |   density              0.081
+2026-08-02 15:48:51 | INFO | M05 |   fixed_acidity        0.079
+2026-08-02 15:48:51 | INFO | M05 |   chlorides            0.078
+2026-08-02 15:48:51 | INFO | M05 |   residual_sugar       0.076
+2026-08-02 15:48:51 | INFO | M05 |   ph                   0.066
+2026-08-02 15:48:51 | INFO | M05 |   free_sulfur_dioxide  0.060

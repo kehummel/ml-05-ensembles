@@ -72,27 +72,28 @@ For best results, follow the detailed instructions in
 In phase 4 I compared single tree to ensembles for data on classification of diabetes. For this data set, the ensembles were less effective and single tree was the better option. Individual's glucose level was the feature of most importance.
 
 Accuracy of Tests
+
 ![Accuracy of Tests](./docs/images/p4_ensembles.png)
 
 Features listed in order of importance
+
 ![Features of Importance](./docs/images/p4_importance.png)
 
-[Phase 4 Notebook- ml_05_ensembles_hummel.ipynb](notebooks/ml_05_ensembles_hummel.ipynb)
+[Phase 4 Notebook - ml_05_ensembles_hummel.ipynb](notebooks/ml_05_ensembles_hummel.ipynb)
 
 ### Phase 5
 
-Update figures to present interesting results from your custom project:
+In phase 5 I compared 4 models to predict the highest scoring red wine. The bagging model worked the best, followed by the random forest, then voting, then ada boost.
 
-(./docs/images/Figure_1.png)
+Summary of Results of All 4 Models
 
-![Provide](./docs/images/Figure_2.png)
+![Summary of Models](./docs/images/p5_summary.png)
 
+[Phase 5 Notebook - ensembles_hummel.ipynb](notebooks/project05/ensembles_hummel.ipynb)
 
 ## Project Documentation
 
 Additional project instructions, terms, and notes:
-
-[docs/index.md](docs/index.md)
 
 [docs/index.md](docs/index.md)
 
