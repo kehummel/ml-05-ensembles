@@ -72,10 +72,10 @@ For best results, follow the detailed instructions in
 In phase 4 I compared single tree to ensembles for data on classification of diabetes. For this data set, the ensembles were less effective and single tree was the better option. Individual's glucose level was the feature of most importance.
 
 Accuracy of Tests
-(./docs/p4_ensembles.png)
+![Accuracy of Tests](./docs/p4_ensembles.png)
 
 Features listed in order of importance
-(./docs/p4_importance.png)
+![Features of Importance](./docs/p4_importance.png)
 
 [Phase 4 Notebook- ml_05_ensembles_hummel.ipynb](notebooks/ml_05_ensembles_hummel.ipynb)
 
