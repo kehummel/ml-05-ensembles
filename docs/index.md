@@ -79,6 +79,6 @@ I ran 4 ensemble models to try to learn which wines earned the highest quality s
 
 Summary of Results of All 4 Models
 
-![Summary of Models](./docs/images/p5_summary.png)
+![Summary of Models](./images/p5_summary.png)
 
 These models can be applied to any regression data set. You could use this to predict which types of goods customers would buy based on previous purchases.
