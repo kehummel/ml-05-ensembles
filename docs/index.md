@@ -21,19 +21,17 @@ to get the example projects running on your machine.
 
 ## Phase 4. Technical Modification
 
-Describe your small technical modification to the example project.
+In phase 4, I changed the dataset used to a diabetes prediction dataset from kaggle. https://www.kaggle.com/datasets/rishitjakharia/diabetes-prediction?select=diabetes.csv. I decided to change the dataset because I wanted practice running through an entire problem. I also wanted to review how to load in a CSV instead of using a seaborn library, which is why I found a dataset on kaggle.
 
-Include:
+It was a supervised, classification problem to see if we could predict which people had diabetes.
 
-- What you changed
-- Why you chose that change
-- How you verified that it worked
-- What result, output, chart, metric, or behavior confirmed the change
+Since I changed the dataset I had to change the target and the features. I kept the train/test split the same.
 
-Compared with the example project,
-explain what is different and why the change matters.
+I played around with the settings in the decision tree classifier and random forest classifier until I had the highest accuracy for each test. This resulted in a max depth of 4 for the decision tree classifier and an n-estimator of 100 for the random forest classifier.
 
-Was it easy, or surprisingly challenging and why do you think so?
+This resulted in the single tree test having a higher accuracy than an ensemble, which was not the case for the example project. This shows that complication, or adding extra work/steps, does not always result in more accuracy.
+
+This modification was easy, but took a little more time as I had to problems solve when trying to load the CSV and fine tuning the settings for the different models.
 
 ## Phase 5. Custom Project
 

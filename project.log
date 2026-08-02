@@ -132,3 +132,148 @@ Name: count, dtype: int64
 2026-07-28 19:00:34 | INFO | M05 | Dataset: penguins   Target: species (classification)
 2026-07-28 19:00:34 | INFO | M05 | Compared: single tree vs. random forest vs. gradient boosting
 2026-07-28 19:00:34 | INFO | M05 | ========================
+2026-08-01 08:35:16 | INFO | M05 | === RUN START ===
+2026-08-01 08:35:16 | INFO | M05 | project=M05
+2026-08-01 08:35:16 | INFO | M05 | repo_dir=ml-05-ensembles
+2026-08-01 08:35:16 | INFO | M05 | python=3.14.3
+2026-08-01 08:35:16 | INFO | M05 | os=Windows 11
+2026-08-01 08:35:16 | INFO | M05 | shell=powershell
+2026-08-01 08:35:16 | INFO | M05 | cwd=notebooks
+2026-08-01 08:35:16 | INFO | M05 | github_actions=False
+2026-08-01 08:35:16 | INFO | M05 | Confirming installation:
+2026-08-01 08:35:16 | INFO | M05 |   python:       3.14.3
+2026-08-01 08:35:16 | INFO | M05 |   pandas:       3.0.5
+2026-08-01 08:35:16 | INFO | M05 |   numpy:        2.5.1
+2026-08-01 08:35:16 | INFO | M05 |   scikit-learn: 1.9.0
+2026-08-01 08:35:16 | INFO | M05 |   seaborn:      0.13.2
+2026-08-01 08:35:17 | INFO | M05 |   matplotlib:   3.11.1
+2026-08-01 08:35:50 | INFO | M05 | Loading dataset: diabetes_data
+2026-08-01 08:37:32 | INFO | M05 | Loading dataset: diabetes_data
+2026-08-01 08:42:40 | INFO | M05 | Loading dataset: diabetes_data
+2026-08-01 09:49:31 | INFO | M05 | === RUN START ===
+2026-08-01 09:49:31 | INFO | M05 | project=M05
+2026-08-01 09:49:31 | INFO | M05 | repo_dir=ml-05-ensembles
+2026-08-01 09:49:31 | INFO | M05 | python=3.14.3
+2026-08-01 09:49:31 | INFO | M05 | os=Windows 11
+2026-08-01 09:49:31 | INFO | M05 | shell=powershell
+2026-08-01 09:49:31 | INFO | M05 | cwd=notebooks
+2026-08-01 09:49:31 | INFO | M05 | github_actions=False
+2026-08-01 09:49:31 | INFO | M05 | Confirming installation:
+2026-08-01 09:49:31 | INFO | M05 |   python:       3.14.3
+2026-08-01 09:49:31 | INFO | M05 |   pandas:       3.0.5
+2026-08-01 09:49:31 | INFO | M05 |   numpy:        2.5.1
+2026-08-01 09:49:31 | INFO | M05 |   scikit-learn: 1.9.0
+2026-08-01 09:49:31 | INFO | M05 |   seaborn:      0.13.2
+2026-08-01 09:49:31 | INFO | M05 |   matplotlib:   3.11.1
+2026-08-01 09:55:57 | INFO | M05 | === RUN START ===
+2026-08-01 09:55:57 | INFO | M05 | project=M05
+2026-08-01 09:55:57 | INFO | M05 | repo_dir=ml-05-ensembles
+2026-08-01 09:55:57 | INFO | M05 | python=3.14.3
+2026-08-01 09:55:57 | INFO | M05 | os=Windows 11
+2026-08-01 09:55:57 | INFO | M05 | shell=powershell
+2026-08-01 09:55:57 | INFO | M05 | cwd=notebooks
+2026-08-01 09:55:57 | INFO | M05 | github_actions=False
+2026-08-01 09:55:57 | INFO | M05 | Confirming installation:
+2026-08-01 09:55:57 | INFO | M05 |   python:       3.14.3
+2026-08-01 09:55:57 | INFO | M05 |   pandas:       3.0.5
+2026-08-01 09:55:57 | INFO | M05 |   numpy:        2.5.1
+2026-08-01 09:55:57 | INFO | M05 |   scikit-learn: 1.9.0
+2026-08-01 09:55:57 | INFO | M05 |   seaborn:      0.13.2
+2026-08-01 09:55:57 | INFO | M05 |   matplotlib:   3.11.1
+2026-08-01 09:58:19 | INFO | M05 | Loading dataset: c:\Repos\Applied_Machine_Learning\ml-05-ensembles\notebooks\data\raw\diabetes_data.csv
+2026-08-01 09:59:46 | INFO | M05 | Loading dataset: c:\Repos\Applied_Machine_Learning\ml-05-ensembles\notebooks\data\raw\diabetes_data.csv
+2026-08-01 10:01:33 | INFO | M05 | Loading dataset: c:\Repos\Applied_Machine_Learning\ml-05-ensembles\notebooks\data\raw\diabetes_data.csv
+2026-08-01 10:16:18 | INFO | M05 | Loading dataset: c:\Repos\Applied_Machine_Learning\ml-05-ensembles\data\raw\diabetes_data.csv
+2026-08-01 10:16:18 | INFO | M05 | Loaded: 768 rows (instances), 9 columns
+2026-08-01 10:19:13 | INFO | M05 | Loading dataset: c:\Repos\Applied_Machine_Learning\ml-05-ensembles\data\raw\diabetes_data.csv
+2026-08-01 10:19:13 | INFO | M05 | Loaded: 768 rows (instances), 9 columns
+2026-08-01 10:19:13 | INFO | M05 | Original rows: 768
+2026-08-01 10:19:13 | INFO | M05 | Model rows:    768
+2026-08-01 10:19:13 | INFO | M05 | Classes in target 'outcome': [np.int64(0), np.int64(1)]
+2026-08-01 10:19:13 | DEBUG | M05 | Class counts:
+outcome
+0    500
+1    268
+Name: count, dtype: int64
+2026-08-01 10:20:02 | INFO | M05 | Train instances: 614
+2026-08-01 10:20:02 | INFO | M05 | Test instances: 154
+2026-08-01 10:20:41 | INFO | M05 | Fitting single tree + two ensembles
+2026-08-01 10:20:41 | DEBUG | M05 |   fitted: single_tree
+2026-08-01 10:20:42 | DEBUG | M05 |   fitted: random_forest
+2026-08-01 10:20:42 | DEBUG | M05 |   fitted: gradient_boosting
+2026-08-01 10:21:01 | INFO | M05 |   single_tree        test accuracy = 0.701
+2026-08-01 10:21:01 | INFO | M05 |   random_forest      test accuracy = 0.740
+2026-08-01 10:21:01 | INFO | M05 |   gradient_boosting  test accuracy = 0.747
+2026-08-01 10:21:02 | INFO | M05 | Best model: gradient_boosting with test accuracy = 0.747
+2026-08-01 10:22:08 | INFO | M05 | Fitting single tree + two ensembles
+2026-08-01 10:22:08 | DEBUG | M05 |   fitted: single_tree
+2026-08-01 10:22:08 | DEBUG | M05 |   fitted: random_forest
+2026-08-01 10:22:09 | DEBUG | M05 |   fitted: gradient_boosting
+2026-08-01 10:22:12 | INFO | M05 |   single_tree        test accuracy = 0.805
+2026-08-01 10:22:12 | INFO | M05 |   random_forest      test accuracy = 0.740
+2026-08-01 10:22:12 | INFO | M05 |   gradient_boosting  test accuracy = 0.747
+2026-08-01 10:22:13 | INFO | M05 | Best model: single_tree with test accuracy = 0.805
+2026-08-01 10:22:27 | INFO | M05 | Fitting single tree + two ensembles
+2026-08-01 10:22:27 | DEBUG | M05 |   fitted: single_tree
+2026-08-01 10:22:28 | DEBUG | M05 |   fitted: random_forest
+2026-08-01 10:22:28 | DEBUG | M05 |   fitted: gradient_boosting
+2026-08-01 10:22:30 | INFO | M05 |   single_tree        test accuracy = 0.805
+2026-08-01 10:22:30 | INFO | M05 |   random_forest      test accuracy = 0.740
+2026-08-01 10:22:30 | INFO | M05 |   gradient_boosting  test accuracy = 0.747
+2026-08-01 10:22:30 | INFO | M05 | Best model: single_tree with test accuracy = 0.805
+2026-08-01 10:22:49 | INFO | M05 | Fitting single tree + two ensembles
+2026-08-01 10:22:49 | DEBUG | M05 |   fitted: single_tree
+2026-08-01 10:22:50 | DEBUG | M05 |   fitted: random_forest
+2026-08-01 10:22:50 | DEBUG | M05 |   fitted: gradient_boosting
+2026-08-01 10:23:00 | INFO | M05 | Fitting single tree + two ensembles
+2026-08-01 10:23:00 | DEBUG | M05 |   fitted: single_tree
+2026-08-01 10:23:01 | DEBUG | M05 |   fitted: random_forest
+2026-08-01 10:23:01 | DEBUG | M05 |   fitted: gradient_boosting
+2026-08-01 10:23:04 | INFO | M05 |   single_tree        test accuracy = 0.805
+2026-08-01 10:23:04 | INFO | M05 |   random_forest      test accuracy = 0.740
+2026-08-01 10:23:04 | INFO | M05 |   gradient_boosting  test accuracy = 0.747
+2026-08-01 10:23:04 | INFO | M05 | Best model: single_tree with test accuracy = 0.805
+2026-08-01 10:23:16 | INFO | M05 | Fitting single tree + two ensembles
+2026-08-01 10:23:16 | DEBUG | M05 |   fitted: single_tree
+2026-08-01 10:23:16 | DEBUG | M05 |   fitted: random_forest
+2026-08-01 10:23:17 | DEBUG | M05 |   fitted: gradient_boosting
+2026-08-01 10:23:19 | INFO | M05 |   single_tree        test accuracy = 0.805
+2026-08-01 10:23:19 | INFO | M05 |   random_forest      test accuracy = 0.747
+2026-08-01 10:23:19 | INFO | M05 |   gradient_boosting  test accuracy = 0.747
+2026-08-01 10:23:20 | INFO | M05 | Best model: single_tree with test accuracy = 0.805
+2026-08-01 10:23:31 | INFO | M05 | Fitting single tree + two ensembles
+2026-08-01 10:23:31 | DEBUG | M05 |   fitted: single_tree
+2026-08-01 10:23:31 | DEBUG | M05 |   fitted: random_forest
+2026-08-01 10:23:31 | DEBUG | M05 |   fitted: gradient_boosting
+2026-08-01 10:23:35 | INFO | M05 |   single_tree        test accuracy = 0.805
+2026-08-01 10:23:35 | INFO | M05 |   random_forest      test accuracy = 0.766
+2026-08-01 10:23:35 | INFO | M05 |   gradient_boosting  test accuracy = 0.747
+2026-08-01 10:23:35 | INFO | M05 | Best model: single_tree with test accuracy = 0.805
+2026-08-01 10:23:55 | INFO | M05 | Fitting single tree + two ensembles
+2026-08-01 10:23:55 | DEBUG | M05 |   fitted: single_tree
+2026-08-01 10:23:55 | DEBUG | M05 |   fitted: random_forest
+2026-08-01 10:23:55 | DEBUG | M05 |   fitted: gradient_boosting
+2026-08-01 10:23:58 | INFO | M05 |   single_tree        test accuracy = 0.805
+2026-08-01 10:23:58 | INFO | M05 |   random_forest      test accuracy = 0.747
+2026-08-01 10:23:58 | INFO | M05 |   gradient_boosting  test accuracy = 0.747
+2026-08-01 10:23:58 | INFO | M05 | Best model: single_tree with test accuracy = 0.805
+2026-08-01 10:24:12 | INFO | M05 | Fitting single tree + two ensembles
+2026-08-01 10:24:12 | DEBUG | M05 |   fitted: single_tree
+2026-08-01 10:24:13 | DEBUG | M05 |   fitted: random_forest
+2026-08-01 10:24:13 | DEBUG | M05 |   fitted: gradient_boosting
+2026-08-01 10:24:17 | INFO | M05 |   single_tree        test accuracy = 0.805
+2026-08-01 10:24:17 | INFO | M05 |   random_forest      test accuracy = 0.766
+2026-08-01 10:24:17 | INFO | M05 |   gradient_boosting  test accuracy = 0.747
+2026-08-01 10:24:17 | INFO | M05 | Best model: single_tree with test accuracy = 0.805
+2026-08-02 11:34:02 | INFO | M05 | Random forest feature importances (high to low):
+2026-08-02 11:34:02 | INFO | M05 |   glucose              0.356
+2026-08-02 11:34:02 | INFO | M05 |   BMI                  0.235
+2026-08-02 11:34:02 | INFO | M05 |   age                  0.179
+2026-08-02 11:34:02 | INFO | M05 |   blood_pressure       0.121
+2026-08-02 11:34:02 | INFO | M05 |   skin_thickness       0.109
+2026-08-02 11:34:43 | INFO | M05 | ========================
+2026-08-02 11:34:43 | INFO | M05 | SUMMARY
+2026-08-02 11:34:43 | INFO | M05 | ========================
+2026-08-02 11:34:43 | INFO | M05 | Dataset: c:\Repos\Applied_Machine_Learning\ml-05-ensembles\data\raw\diabetes_data.csv   Target: outcome (classification)
+2026-08-02 11:34:43 | INFO | M05 | Compared: single tree vs. random forest vs. gradient boosting
+2026-08-02 11:34:43 | INFO | M05 | ========================
